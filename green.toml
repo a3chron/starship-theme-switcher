@@ -87,27 +87,27 @@ disabled = false
 threshold = -1
 format = '[$ram_pct]($style)'
 symbol = ''
-style = 'dimmed teal'
+style = 'dimmed yellow'
  
 [localip]
 ssh_only = false
-format = '[@$localipv4](bold dimmed teal) '
+format = '[@$localipv4](bold dimmed yellow) '
 disabled = false
  
 [hostname]
 ssh_only = false
 ssh_symbol = 'ssh:'
-format = '[$ssh_symbol](bold dimmed maroon)[$hostname](bold dimmed yellow)'
+format = '[$ssh_symbol](bold dimmed maroon)[$hostname](bold dimmed green)'
 trim_at = ''
 disabled = false
  
 [git_metrics]
 disabled = false
-format = ' [+$added](bold teal)[-$deleted](bold pink)'
+format = ' [+$added](bold green)[-$deleted](bold maroon)'
  
 [git_branch]
 format = '[$branch(:$remote_branch)]($style)'
-style = 'bold pink'
+style = 'bold dimmed teal'
  
 [fill]
 symbol = ' '
@@ -125,7 +125,7 @@ truncation_length = 5
 truncation_symbol = '…/'
 read_only = ' read-only'
 read_only_style = 'bold dimmed yellow'
-style = 'bold green'
+style = 'bold yellow'
  
 # prompt char
 [character]
