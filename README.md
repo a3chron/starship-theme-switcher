@@ -2,6 +2,19 @@
 
 A simple setup to easily switch starship themes / profiles. (obv customizable, this repo is just a starting point)
 
+<table>
+  <tr>
+    <td><img src="/assets/green.png" alt="green" /></td>
+    <td><img src="/assets/blue.png" alt="blue" /></td>
+    <td><img src="/assets/red.png" alt="red" /></td>
+  </tr>
+</table>
+
+> [!NOTE]
+> `starship-theme` only switches the starship config. It can be part in bigger scripts to change the entire system theme if needed.
+> For the borders, the gnome extension **Rounded Window Corners Reborn** is used.
+> The quick-settings color is set manually too, in the settings.
+
 You can use following command to switch predifined themes:
 ```bash
 starship-theme blue
@@ -31,3 +44,4 @@ You may have to adjust certain paths, in case you don't use the same as me...
 <p align="center">
  <a href="https://github.com/a3chron/starship-theme-switcher/LICENSE"><img src="https://img.shields.io/github/license/a3chron/starship-theme-switcher?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 </p>
+
