@@ -18,3 +18,11 @@ Contributions are welcome, please rember to use conventional commits :)
 
 Put the `starship-theme` in your bin directory, make it executable, basically done.
 You may have to adjust certain paths, in case you don't use the same as me...
+
+# Todos
+
+- [ ] move themes in a extra /themes direcory
+- [ ] maybe extra seperation, e.g. in themes dir again other directories, and then `switch catppuccin:blue` or similar (to make it easier adding more themes)
+- [ ] automate some parts of the switch script, i.e. check the themes direcory for possible themes, don't hardcode
+- [ ] add images / preview / gif
+

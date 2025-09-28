@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Starship Catppuccin theme switcher by a3chron
+
+CONFIG="$HOME/.config/starship.toml"
+ACCENT="$1"
+
+if [[ -z "$ACCENT" ]]; then
+  echo "Usage: starship-theme [red|blue|green]"
+  exit 1
+fi
+
+# Valid flavors
+if [[ ! "$ACCENT" =~ ^(red|blue|green)$ ]]; then
+  echo "Invalid accent: $ACCENT"
+  echo "Valid themes: red, blue, green"
+  exit 1
+fi
+
+# Check if config file exists
+if [[ ! -f "$CONFIG" ]]; then
+  echo "Config file not found: $CONFIG"
+  exit 1
+fi
+
+# Replace the config with one from .config/starship-themes
+cp "$HOME/.config/starship-themes/$ACCENT.toml" "$CONFIG"
+
+
+echo "Switched Starship theme to: $ACCENT"
