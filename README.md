@@ -2,6 +2,8 @@
 
 A simple setup to easily switch starship themes / profiles. (obv customizable, this repo is just a starting point)
 
+As I just switched to NixOS I made I version for that, I will upload it to a seperate repo once I improved it a bit, and link it here.
+
 <table>
   <tr>
     <td><img src="/assets/green.png" alt="green" /></td>
@@ -44,5 +46,6 @@ You may have to adjust certain paths, in case you don't use the same as me...
 <p align="center">
  <a href="https://github.com/a3chron/starship-theme-switcher/blob/main/LICENSE"><img src="https://img.shields.io/github/license/a3chron/starship-theme-switcher?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 </p>
+
 
 
