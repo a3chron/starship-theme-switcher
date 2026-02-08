@@ -3,7 +3,7 @@
 A simple setup to easily switch starship themes / profiles. (obv customizable, this repo is just a starting point)
 
 > [!WARNING]
-> Archived repo, I switched to nixOS, so will use my [new script](https://gist.github.com/a3chron/2b7479cb3a256a9590d251c5e66b663a).
+> Archived repo, I made a better tool to switch between starship configs and more, feel free to check it out: [stellar](https://github.com/a3chron/stellar).  
 > To get my latest starship configs, check out my [nix config](https://github.com/a3chron/nix-config/tree/main/home/starship-themes)
 
 As I just switched to NixOS I made I version for that, if you want it in you nix config: [NixOS starship theme switcher](https://gist.github.com/a3chron/2b7479cb3a256a9590d251c5e66b663a)
@@ -50,6 +50,7 @@ You may have to adjust certain paths, in case you don't use the same as me...
 <p align="center">
  <a href="https://github.com/a3chron/starship-theme-switcher/blob/main/LICENSE"><img src="https://img.shields.io/github/license/a3chron/starship-theme-switcher?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 </p>
+
 
 
 
